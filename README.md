@@ -15,3 +15,5 @@ This document contains ***no code or scripts***, so feel free to use it with con
 
 ----------
 This project is jointly led by [HLAB](https://i.uestc.edu.cn/hlab/Journal.html) and Xie Lab. For any questions, don't hesitate to get in touch with the author, Wenzhen Li, at bioinfowenz@gmail.com.
+
+# <p align="center"> Have a goooood day！ :kissing_closed_eyes: </p>
