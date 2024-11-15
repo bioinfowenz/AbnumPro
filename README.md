@@ -25,7 +25,8 @@ This document contains ***no code or scripts***, so feel free to use it with con
         * The method is the same as above. Due to scheme limitations, CDR prediction is only available for the Kabat, Chothia, and IMGT schemes.
     * ABR prediction
         * ABR prediction in AbnumPro is based on a Hidden Markov Model and does not require selecting a numbering scheme.
-
+  * All prediction results can be saved by clicking the Save button.
+    
 <div align="center">
 
 |Scheme|Light Chain|Heavy chain|Complete Antibody|
