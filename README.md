@@ -22,9 +22,9 @@ This document contains ***no code or scripts***, so feel free to use it with con
     * antibody numbering
         * After inputting the antibody sequence, select the antibody numbering scheme and click the Submit button to perform antibody numbering. You can also click the Example button to populate the input box with sample data.
     * CDR prediction
-        * After inputting the antibody sequence, select the antibody numbering scheme and click the Submit button to perform antibody numbering. You can also click the Example button to populate the input box with sample data.
+        * The method is the same as above. Due to scheme limitations, CDR prediction is only available for the Kabat, Chothia, and IMGT schemes.
     * ABR prediction
-        * After inputting the antibody sequence, select the antibody numbering scheme and click the Submit button to perform antibody numbering. You can also click the Example button to populate the input box with sample data.
+        * ABR prediction in AbnumPro is based on a Hidden Markov Model and does not require selecting a numbering scheme.
 
 <div align="center">
 
