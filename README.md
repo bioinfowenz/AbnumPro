@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f00dac4d-20e5-472f-aeb5-b23a2911070f)# <p align="center"> Nice to meet you！ :kissing_closed_eyes: </p>
+![image](https://github.com/user-attachments/assets/f00dac4d-20e5-472f-aeb5-b23a2911070f) <p align="center"> Nice to meet you！ :kissing_closed_eyes: </p>
 --------
 #### This is ****AbnumPro**** , Before You Begin:
 ***Important note***:Since antibody numbering requires relatively low computational resources and benefits from real-time visualization, most users typically access online antibody numbering platforms on Windows systems. Additionally, the [Cao Lab](http://cao.labshare.cn/AbRSA/) has developed an antibody numbering software for Linux, enabling Linux and Mac users to perform both small- and large-scale numbering tasks, even though it may also function as an online service. Therefore, AbnumPro is currently developed exclusively for ***Windows*** users. Users can download the latest version of AbnumPro for offline use.<br>
@@ -12,11 +12,19 @@ This document contains ***no code or scripts***, so feel free to use it with con
 ----------
 
 ## Let's begin!
-### How to install AbnumPro
-STEP1: Download the compressed file named AbnumPro from the repository or click this link to download it.<br>
-STEP2:
-STEP3:
+### INSTALL
+* STEP1: Download the compressed file named `AbnumPro.zip` from the repository.<br>
+* STEP2: After extracting the files, no installation is required—simply double-click the `.exe` file to run the program.<br>
 
+### USE
+*  The default language of AbnumPro is Chinese, but you can switch to English from the top-right corner of the software.<br>
+  * The left sidebar serves as the AbnumPro function panel, integrating three features: antibody numbering, CDR prediction, and ABR prediction.<br>
+    * antibody numbering
+        * After inputting the antibody sequence, select the antibody numbering scheme and click the Submit button to perform antibody numbering. You can also click the Example button to populate the input box with sample data.
+    * CDR prediction
+        * After inputting the antibody sequence, select the antibody numbering scheme and click the Submit button to perform antibody numbering. You can also click the Example button to populate the input box with sample data.
+    * ABR prediction
+        * After inputting the antibody sequence, select the antibody numbering scheme and click the Submit button to perform antibody numbering. You can also click the Example button to populate the input box with sample data.
 
 <div align="center">
 
