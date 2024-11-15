@@ -12,3 +12,6 @@ This document contains ***no code or scripts***, so feel free to use it with con
 ----------
 
 ## Let's begin!
+
+----------
+This project is jointly led by [HLAB](https://i.uestc.edu.cn/hlab/Journal.html) and Xie Lab. For any questions, don't hesitate to get in touch with the author, Wenzhen Li, at bioinfowenz@gmail.com.
