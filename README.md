@@ -7,6 +7,8 @@
 
 If ***Chinese*** is your native language, congratulations~~~🎉🎉🎉 You can use AbnumPro seamlessly! If not, no worries—you can switch the language to English.👻
 
+The AbnumPro is free for anyone to use and distribute, including for commercial and academic purposes. For details, please refer to the License.
+
 This document contains ***no code or scripts***, so feel free to use it with confidence!
 
 ----------
