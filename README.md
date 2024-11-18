@@ -14,11 +14,14 @@ This document contains ***no code or scripts***, so feel free to use it with con
 ----------
 
 ## Let's begin!
-### INSTALL
+### Overview
+### Prerequisites
+
+### INSTALLATION
 * STEP1: Download the compressed file named `AbnumPro.zip` from the repository.<br>
 * STEP2: After extracting the files, no installation is required—simply double-click the `.exe` file to run the program.<br>
 
-### USE
+### USAGE
 *  The default language of AbnumPro is Chinese, but you can switch to English from the top-right corner of the software.<br>
   * The left sidebar serves as the AbnumPro function panel, integrating three features: antibody numbering, CDR prediction, and ABR prediction.<br>
     * antibody numbering
@@ -28,7 +31,10 @@ This document contains ***no code or scripts***, so feel free to use it with con
     * ABR prediction
         * ABR prediction in AbnumPro is based on a Hidden Markov Model and does not require selecting a numbering scheme.
   * All prediction results can be saved by clicking the Save button.
-    
+
+### LICENSE
+
+### PERFORMANCE EVALUATION
 <div align="center">
 
 |Scheme|Light Chain|Heavy chain|Complete Antibody|
@@ -41,7 +47,9 @@ This document contains ***no code or scripts***, so feel free to use it with con
 </div>
 
 ----------
-This project is jointly led by [HLAB](https://i.uestc.edu.cn/hlab/Journal.html) and Xie Lab. For any questions, don't hesitate to get in touch with the author, Wenzhen Li, at bioinfowenz@gmail.com.<br>
+This project is jointly led by [HLAB](https://i.uestc.edu.cn/hlab/Journal.html) and Xie Lab. For any questions, don't hesitate to get in touch with:<br>
+* Wenzhen Li, first author, at bioinfowenz@gmail.com.<br>
+* Prof. Jian Huang, corresponding author, at hj@uestc.edu.cn.<br>
 
 Please cite:
 
