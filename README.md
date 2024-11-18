@@ -45,7 +45,7 @@ This document contains ***no code or scripts***, so feel free to use it with con
 </div>
 
 ## License
-* This project is licensed under the MIT License - see the [LICENSE]() file for details.
+* This project is licensed under the MIT License - see the [LICENSE](https://github.com/bioinfowenz/AbnumPro/blob/main/LICENSE) file for details.
 ----------
 This project is jointly led by [HLAB](https://i.uestc.edu.cn/hlab/Journal.html) and Xie Lab. For any questions, don't hesitate to get in touch with:<br>
 * Wenzhen Li, first author, at bioinfowenz@gmail.com.<br>
