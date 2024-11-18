@@ -48,6 +48,7 @@ This document contains ***no code or scripts***, so feel free to use it with con
 AbnumPro is licensed under the ***MIT*** License and is free for anyone to use and distribute, including for commercial and academic purposes. For details, please refer to the [LICENSE](https://github.com/bioinfowenz/AbnumPro/blob/main/LICENSE).
 
 ----------
+## Contact
 This project is jointly led by [HLAB](https://i.uestc.edu.cn/hlab/Journal.html) and Xie Lab. For any questions, don't hesitate to get in touch with:<br>
 * Wenzhen Li, first author, at bioinfowenz@gmail.com.<br>
 * Prof. Jian Huang, corresponding author, at hj@uestc.edu.cn.<br>
