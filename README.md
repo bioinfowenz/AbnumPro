@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f00dac4d-20e5-472f-aeb5-b23a2911070f) <p align="center"> Nice to meet you！ :kissing_closed_eyes: </p>
+# <p align="center"> Nice to meet you！ :kissing_closed_eyes: </p>
 --------
 #### This is ****AbnumPro**** , Before You Begin:
 ***Important note***:Since antibody numbering requires relatively low computational resources and benefits from real-time visualization, most users typically access online antibody numbering platforms on Windows systems. Additionally, the [Cao Lab](http://cao.labshare.cn/AbRSA/) has developed an antibody numbering software for Linux, enabling Linux and Mac users to perform both small- and large-scale numbering tasks, even though it may also function as an online service. Therefore, AbnumPro is currently developed exclusively for ***Windows*** users. Users can download the latest version of AbnumPro for offline use.<br>
@@ -32,8 +32,6 @@ This document contains ***no code or scripts***, so feel free to use it with con
         * ABR prediction in AbnumPro is based on a Hidden Markov Model and does not require selecting a numbering scheme.
   * All prediction results can be saved by clicking the Save button.
 
-## License
-
 ## Performance Evaluation
 <div align="center">
 
@@ -46,6 +44,8 @@ This document contains ***no code or scripts***, so feel free to use it with con
 
 </div>
 
+## License
+* This project is licensed under the MIT License - see the [LICENSE]() file for details.
 ----------
 This project is jointly led by [HLAB](https://i.uestc.edu.cn/hlab/Journal.html) and Xie Lab. For any questions, don't hesitate to get in touch with:<br>
 * Wenzhen Li, first author, at bioinfowenz@gmail.com.<br>
