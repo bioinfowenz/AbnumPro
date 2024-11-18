@@ -3,7 +3,7 @@
 #### This is ****AbnumPro**** , Before You Begin:
 ***Important note***:Since antibody numbering requires relatively low computational resources and benefits from real-time visualization, most users typically access online antibody numbering platforms on Windows systems. Additionally, the [Cao Lab](http://cao.labshare.cn/AbRSA/) has developed an antibody numbering software for Linux, enabling Linux and Mac users to perform both small- and large-scale numbering tasks, even though it may also function as an online service. Therefore, AbnumPro is currently developed exclusively for ***Windows*** users. Users can download the latest version of AbnumPro for offline use.<br>
 
-***current version: v1.1.0*** <br> 
+***Current version: v1.1.0*** <br> 
 
 If ***Chinese*** is your native language, congratulations~~~🎉🎉🎉 You can use AbnumPro seamlessly! If not, no worries—you can switch the language to English.👻
 
@@ -13,15 +13,15 @@ This document contains ***no code or scripts***, so feel free to use it with con
 
 ----------
 
-## Let's begin!
-### Overview
+## Overview
+## Getting Started
 ### Prerequisites
 
-### INSTALLATION
+### Installation
 * STEP1: Download the compressed file named `AbnumPro.zip` from the repository.<br>
 * STEP2: After extracting the files, no installation is required—simply double-click the `.exe` file to run the program.<br>
 
-### USAGE
+### Usage
 *  The default language of AbnumPro is Chinese, but you can switch to English from the top-right corner of the software.<br>
   * The left sidebar serves as the AbnumPro function panel, integrating three features: antibody numbering, CDR prediction, and ABR prediction.<br>
     * antibody numbering
@@ -32,9 +32,9 @@ This document contains ***no code or scripts***, so feel free to use it with con
         * ABR prediction in AbnumPro is based on a Hidden Markov Model and does not require selecting a numbering scheme.
   * All prediction results can be saved by clicking the Save button.
 
-### LICENSE
+## License
 
-### PERFORMANCE EVALUATION
+## Performance Evaluation
 <div align="center">
 
 |Scheme|Light Chain|Heavy chain|Complete Antibody|
