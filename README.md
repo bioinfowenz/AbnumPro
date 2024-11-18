@@ -11,8 +11,6 @@ The AbnumPro is free for anyone to use and distribute, including for commercial 
 
 This document contains ***no code or scripts***, so feel free to use it with confidence!
 
-----------
-
 ## Overview
 ## Getting Started
 ### Prerequisites
