@@ -31,16 +31,7 @@ This document contains ***no code or scripts***, so feel free to use it with con
   * All prediction results can be saved by clicking the Save button.
 
 ## Performance Evaluation
-<div align="center">
-
-|Scheme|Light Chain|Heavy chain|Complete Antibody|
-| ---------- | -----------| -----------| -----------|
-|  `Kabat`|0.852/0.356|0844/0.482|0.846/0.424|
-| `Chothia`   |0.795/0.334| 0.816/0.632   | 0.808/0.473   |
-| `IMGT`   |0.744/0.589|0.706/0.594| 0.720/0.592   |
-| `ABR`   |0.947/0.343|0.903/0.523|0.920/0.433|
-
-</div>
+![](https://github.com/bioinfowenz/AbnumPro/blob/main/performance.png)
 
 ## License
 AbnumPro is licensed under the ***MIT*** License and is free for anyone to use and distribute, including for commercial and academic purposes. For details, please refer to the [LICENSE](https://github.com/bioinfowenz/AbnumPro/blob/main/LICENSE).<br>
