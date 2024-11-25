@@ -11,7 +11,13 @@ The AbnumPro is free for anyone to use and distribute, including for commercial 
 
 This document contains ***no code or scripts***, so feel free to use it with confidence!
 
+--------
 ## Overview
+Numbering antibodies and predicting CDRs are critical foundational steps in antibody engineering and therapeutic antibody development. AbNumPro, developed by HLab for antibody informatics research, is an offline software tool designed specifically for antibody numbering and the prediction of CDRs and ABRs, addressing these essential steps. With significant value for both academic research and commercial collaborations, AbNumPro has been successfully applied in various projects and partnerships. Its impact and utility are primarily reflected in the following features:
+1.	AbNumPro is freely available for use and distribution, including for both commercial and academic purposes.
+2.	AbNumPro functions entirely offline, providing robust safeguards for user data—a distinctive advantage in the current technological landscape.
+3.	AbNumPro provides broader domain coverage for ABRs prediction, taking into account the widest possible range of potential ABRs.
+
 ## Getting Started
 ### Prerequisites
 
