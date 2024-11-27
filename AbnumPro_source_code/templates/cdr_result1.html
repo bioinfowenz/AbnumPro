@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Material Dash</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet"
+      href="../assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../assets/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet"
+      href="../assets/vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet"
+      href="../assets/vendors/jvectormap/jquery-jvectormap.css">
+    <!-- End plugin css for this page -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="../assets/css/demo/style.css">
+    <link rel="stylesheet" href="../assets/css/demo/color.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="../assets/images/favicon.png" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"> -->
+    <link href="../assets/bootstrap/css/docs.css"
+      rel="stylesheet">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css" />
+    <!-- <script
+      src="../assets/bootstrap/js/bootstrap.js"></script> -->
+    <script
+      src="../assets/bootstrap/js/bootstrap.bundle.js"></script>
+
+  </head>
+  <body>
+    <script src="../assets/js/preloader.js"></script>
+    <div class="body-wrapper">
+      <!-- partial:partials/_sidebar.html -->
+      <aside class="mdc-drawer mdc-drawer--dismissible mdc-drawer--open">
+        <div class="mdc-drawer__header">
+          <a href="index.html" class="brand-logo">
+            <img src="../assets/images/logo.svg" alt="logo">
+          </a>
+        </div>
+        <div class="mdc-drawer__content">
+          <!-- <div class="user-info">
+            <p class="name">Clyde Miles</p>
+            <p class="email">clydemiles@elenor.us</p>
+          </div> -->
+          <div class="mdc-list-group">
+            <nav class="mdc-list mdc-drawer-menu">
+              <div class="mdc-list-item mdc-drawer-item">
+                <a class="mdc-drawer-link" href="index.html">
+                  <i
+                    class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon"
+                    aria-hidden="true">home</i>
+                  主页
+                </a>
+              </div>
+              <div class="mdc-list-item mdc-drawer-item">
+                <a class="mdc-drawer-link active" href="number.html">
+                  <i
+                    class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon"
+                    aria-hidden="true">track_changes</i>
+                  抗体序列编号
+                </a>
+              </div>
+              <div class="mdc-list-item mdc-drawer-item">
+                <a class="mdc-drawer-link" href="cdr.html">
+                  <i
+                    class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon"
+                    aria-hidden="true">dashboard</i>
+                  抗体互补决定区预测
+                </a>
+              </div>
+
+            </nav>
+          </div>
+
+        </div>
+      </aside>
+      <!-- partial -->
+      <div class="main-wrapper mdc-drawer-app-content">
+        <!-- partial:partials/_navbar.html -->
+
+        <!-- partial -->
+        <div class="page-wrapper mdc-toolbar-fixed-adjust">
+          <main class="content-wrapper">
+            <div class="mdc-layout-grid">
+              <div class="mdc-layout-grid__inner">
+                <div
+                  style="background-image: radial-gradient(circle at center, #ebc0fd 0%, #ffffff 100%);"
+                  class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12">
+                  <div class="mdc-card main ">
+                    <div style="height: auto;">
+                      <h2 class="text-center" id="schemaTitle">抗体序列cdr注释结果</h2>
+                      <!-- <div class="accordion" id="numberDiv"
+                        style="padding-top: 15px;"> -->
+                      <div id="numberDiv" class="table-responsive"
+                        style="padding-top: 15px;">
+
+                        <!-- <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#collapseOne" aria-expanded="true"
+                              aria-controls="collapseOne">
+                              Accordion Item #1
+                            </button>
+                          </h2>
+                          <div id="collapseOne"
+                            class="accordion-collapse collapse show"
+                            aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <div class="bd-callout bd-callout-warning"
+                                data-bs-theme="bs-orange">
+                                <h5
+                                  id="associating-form-text-with-form-controls">Associating
+                                  form text with form controls <a
+                                    class="anchor-link"
+                                    href="#associating-form-text-with-form-controls"
+                                    aria-label="Link to this section: Associating form text with form controls"></a></h5>
+                                <p>Form text should be explicitly associated
+                                  with the form control it relates to using the
+                                  <code>aria-describedby</code> attribute. This
+                                  will ensure that assistive technologies—such
+                                  as screen readers—will announce this form text
+                                  when the user focuses or enters the control.
+                                </p></div>
+                            </div>
+                          </div>
+                        </div> -->
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+
+        </div>
+      </div>
+    </div>
+    <!-- plugins:js -->
+    <script src="../assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page-->
+    <script src="../assets/vendors/chartjs/Chart.min.js"></script>
+    <script
+      src="../assets/vendors/jvectormap/jquery-jvectormap.min.js"></script>
+    <script
+      src="../assets/vendors/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <!-- End plugin js for this page-->
+    <!-- inject:js -->
+    <script src="../assets/js/material.js"></script>
+    <script src="../assets/js/misc.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <script src="../assets/js/dashboard.js"></script>
+    <!-- End custom js for this page-->
+    <!-- <script src="..//assets/bootstrap/js/bootstrap.js"></script> -->
+
+  </body>
+  <script>
+    // localStorage.setItem('cdr_results',"JSON.stringify(response)")
+    // 读取存储的数据
+    $(document).ready(function() {
+      var storedData = localStorage.getItem('cdr_results');
+      
+      var data = JSON.parse(storedData);
+      var seqlist = data[0]
+      var scheme = data[1]
+      var alignment_details = data[2]
+      var cdr_list = data[3]
+      
+      
+      // 使用数据
+     
+
+      schemaTitle.textContent = `使用${scheme}方案对抗体互补决定区鉴定结果`
+      // var testDiv = document.getElementById("testDiv")
+      // var h2test = $('<h2>').text("addDom")
+      // $("#testDiv").append(h2test)
+      // testDiv.append(h2test)
+      // var numberDiv = document.getElementById("numberDiv")
+      var cdrTable = $("<table>")
+        .addClass("table align-middle table-striped")
+      var cdrHead = $("<thead>").addClass("table-dark")
+      var trHead = $("<tr>")
+      trHead.append($("<th>").text("名称").addClass("text-center"))
+      // trHead.append($("<th>").text("FR1"))
+      trHead.append($("<th>").text("CDR1").addClass("text-center"))
+      // trHead.append($("<th>").text("FR2"))
+      trHead.append($("<th>").text("CDR2").addClass("text-center"))
+      // trHead.append($("<th>").text("FR3"))
+      trHead.append($("<th>").text("CDR3").addClass("text-center"))
+      // trHead.append($("<th>").text("FR4"))
+      cdrHead.append(trHead)
+      cdrTable.append(cdrHead)
+      var cdrTbody = $("<tbody>")
+      for(i=0;i<cdr_list.length;i++){
+        var cdrTr1 = $("<tr>").addClass("text-center")
+        var seq_name = seqlist[1][i]
+        if(seq_name[0]==">"){
+          seq_name = seq_name.substring(1)
+        }
+        cdrTr1.append($("<td>").text(seq_name))
+        // cdrTr1.append($("<td>").text(cdr_list[i][0]))
+        cdrTr1.append($("<td>").text(cdr_list[i][1]))
+        // cdrTr1.append($("<td>").text(cdr_list[i][2]))
+        cdrTr1.append($("<td>").text(cdr_list[i][3]))
+        // cdrTr1.append($("<td>").text(cdr_list[i][4]))
+        cdrTr1.append($("<td>").text(cdr_list[i][5]))
+          // cdrTr1.append($("<td>").text(cdr_list[i][6]))
+        cdrTbody.append(cdrTr1)
+        
+      }
+      cdrTable.append(cdrTbody)
+
+      
+
+      $("#numberDiv").append(cdrTable)
+    //   for(i=0;i<results[0].length;i++){
+    //     var query_start = results[1][i][0]["query_start"]        
+    //     var query_end = query_start+results[0][i][0][0].length
+    //     console.log(`query_start ${query_start}`)
+    //     console.log(`query_end ${query_end}`)
+    //     var numberItem = $('<div>').addClass("accordion-item")
+    //     var numberH2 = $("<h2>").addClass("accordion-header")
+    //     var numberButton = $("<button>").addClass("accordion-button")
+    //     var expand = "false"
+    //     if(i!=0){
+    //       numberButton.addClass("collapsed")
+    //       expand = "false"
+    //     }
+    //     numberButton.attr({
+    //       'type': 'button',
+    //       'data-bs-toggle': 'collapse',
+    //       'data-bs-target': `#panelsStayOpen-collapse${i}`,
+    //       'aria-expanded': expand,
+    //       'aria-controls': `panelsStayOpen-collapse${i}`
+    //     });
+    //     var seq_name = seq[1][i]
+    //     if(seq_name[0]==">"){
+    //       seq_name = seq_name.substring(1)
+    //     }
+    //     numberButton.text(seq_name)
+    //     numberH2.append(numberButton)
+    //     numberH2.attr("id",`panelsStayOpen-heading${i}`)
+    //     numberItem.append(numberH2)
+    //     var numberDetailDiv = $("<div>").addClass("accordion-collapse collapse")
+    //       if(i==0){
+    //       numberDetailDiv.addClass("show")
+    //     }
+    //     numberDetailDiv.attr({
+    //       "aria-labelledby":`panelsStayOpen-heading${i}`,
+    //       "id":`panelsStayOpen-collapse${i}`
+        
+    //     })
+    //     var detailBody = $("<div>").addClass("accordion-body")
+    //     // var domDiv = $("<div>")
+    //       // .addClass("p-3 m-0 border-0 bd-example tooltip-demo")
+    //     var variable_Domain = $("<div>").addClass("bd-callout bd-callout-info")
+    //     variable_Domain.append($("<strong>").text(`可变区域`))
+    //     var seq_total = seq[0][i]
+    //     var seq1 = ""
+    //     if(query_start!=0){
+    //       seq1 = seq_total.substring(0,query_start)
+    //     } 
+    //     var seq2 = seq_total.substring(query_start,query_end+1)
+    //     var seq3 = seq_total.substring(query_end+1)
+    //     var variable_seq = $('<p>').addClass("text-container")
+    //     // variable_seq.style.whiteSpace = 'pre-wrap';
+    //     // var vari_html = `${seq1}<p>${seq2}</p>${seq3}`
+    //     // variable_seq.html(vari_html)
+    //     variable_seq.append($('<span>').addClass("text-secondary").text(seq1))
+    //     variable_seq.append($('<span>').addClass("text-info").text(seq2))
+    //     variable_seq.append($('<span>').addClass("text-secondary").text(seq3))
+    //     // var detailStrong = $("<strong>").text(seq[0][i])
+    //     variable_Domain.append(variable_seq)
+    //     detailBody.append(variable_Domain)
+    //     // domDiv.append()
+    //     var seqTable = $('<div>').addClass("container text-center")
+    //     var len = results[0][i][0][0].length
+    //     // query_end-query_start+1
+    //     // if()
+    //     // var chain_type = results[1][i][0]["chain_type"]
+    //     var rowNum = len/20
+    //     var index=0
+    //     var number_seq = results[0][i][0][0]
+    //     // console.log(`rowNum ${rowNum}`)
+    //     for(x=0;x<=rowNum;x++){
+    //       var rowElement = $("<div>").addClass("row justify-content-start")
+    //       var rowTable = $("<table>").addClass("table table-bordered fixed-width-table fix-table")
+    //       var tr1 = $("<tr>").addClass("redsuide ")
+    //       var tr2 = $("<tr>").addClass("redsuide ")
+    //       for(j=0;j<20;j++){
+            
+    //         if(index<len){
+    //           var num = number_seq[index][0][0]+number_seq[index][0][1]
+    //           var resuide = number_seq[index][1]
+              
+    //           tr1.append($("<td>").addClass(`twidth header_color`).text(num))
+    //           tr2.append($("<td>").addClass(`twidth ${resuide}`).text(resuide))
+    //         }else{
+    //           tr1.append($("<td>").addClass(`twidth`).text("  "))
+    //           tr2.append($("<td>").addClass(`twidth`).text("  "))
+    //         }
+    //         index++;
+    //         // console.log(`${i} ${x} ${j}`)
+    //         // console.log(`index ${index}`)
+            
+    //       }
+    //       rowTable.append(tr1)
+    //       rowTable.append(tr2)
+          
+    //       rowElement.append(rowTable)
+          
+    //       seqTable.append(rowElement)
+    //     }
+        
+
+    //     detailBody.append(seqTable)
+        
+    //     numberDetailDiv.append(detailBody)
+    //     numberItem.append(numberDetailDiv)
+    //     $("#numberDiv").append(numberItem)
+    //     // console.log(`append ${i}`)
+    // }
+  }) 
+  // var storedData = localStorage.getItem('number_results');
+  // var data = JSON.parse(storedData);
+  // var results = data[0]
+  // var seq = data[1]
+  // var number = results[0][0]   
+  </script>
+</html>

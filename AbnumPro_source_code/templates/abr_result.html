@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Material Dash</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet"
+      href="../assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../assets/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet"
+      href="../assets/vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet"
+      href="../assets/vendors/jvectormap/jquery-jvectormap.css">
+    <!-- End plugin css for this page -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="../assets/css/demo/style.css">
+    <link rel="stylesheet" href="../assets/css/demo/color.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="../assets/images/favicon.png" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"> -->
+    <link href="../assets/bootstrap/css/docs.css"
+      rel="stylesheet">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css" />
+    <!-- <script
+      src="../assets/bootstrap/js/bootstrap.js"></script> -->
+    <script
+      src="../assets/bootstrap/js/bootstrap.bundle.js"></script>
+
+  </head>
+  <body>
+    <script src="../assets/js/preloader.js"></script>
+    <div class="body-wrapper">
+      <!-- partial:partials/_sidebar.html -->
+      <aside class="mdc-drawer mdc-drawer--dismissible mdc-drawer--open">
+        <div class="mdc-drawer__header">
+          <a href="index.html" class="brand-logo">
+            <img src="../assets/images/logo.svg" alt="logo">
+          </a>
+        </div>
+        <div class="mdc-drawer__content">
+          <!-- <div class="user-info">
+            <p class="name">Clyde Miles</p>
+            <p class="email">clydemiles@elenor.us</p>
+          </div> -->
+          <div class="mdc-list-group">
+            <nav class="mdc-list mdc-drawer-menu">
+              <div class="mdc-list-item mdc-drawer-item">
+                <a class="mdc-drawer-link" href="index.html">
+                  <i
+                    class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon"
+                    aria-hidden="true">home</i>
+                  主页
+                </a>
+              </div>
+              <div class="mdc-list-item mdc-drawer-item">
+                <a class="mdc-drawer-link" href="number.html">
+                  <i
+                    class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon"
+                    aria-hidden="true">track_changes</i>
+                  抗体序列编号
+                </a>
+              </div>
+              <div class="mdc-list-item mdc-drawer-item">
+                <a class="mdc-drawer-link" href="cdr.html">
+                  <i
+                    class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon"
+                    aria-hidden="true">dashboard</i>
+                  抗体可变区CDR预测
+                </a>
+              </div>
+              <div class="mdc-list-item mdc-drawer-item">
+                <a class="mdc-drawer-link  active" href="abr.html">
+                  <i
+                    class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon"
+                    aria-hidden="true">pages</i>
+                  抗体抗原结合区域预测
+                </a>
+              </div>
+
+            </nav>
+          </div>
+
+        </div>
+      </aside>
+      <!-- partial -->
+      <div class="main-wrapper mdc-drawer-app-content">
+        <!-- partial:partials/_navbar.html -->
+
+        <!-- partial -->
+        <div class="page-wrapper mdc-toolbar-fixed-adjust">
+          <main class="content-wrapper">
+            <div class="mdc-layout-grid">
+              <div class="mdc-layout-grid__inner">
+                <div
+                  style="background-image: radial-gradient(circle at center, #ebc0fd 0%, #ffffff 100%);"
+                  class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12">
+                  <div class="mdc-card main ">
+                    <div style="height: auto;">
+                      <div
+                        class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
+                        <div class="mb-3 mb-md-0 d-flex" id="saveFile">
+
+                          <a
+                            class="btn btn-sm btn-bd-light border rounded-2"
+                            title="将编号结果保存到文件"
+                            rel="noopener">
+                            <img src="../assets/images/download.png"
+                              class="img-fluid mhw" alt="...">保存
+                          </a>
+                        </div>
+                        <h2 class="text-center"
+                          id="schemaTitle">抗体序列ABR注释结果</h2>
+                      </div>
+                      <!-- <h2 class="text-center" id="schemaTitle">抗体序列cdr注释结果</h2> -->
+                      <div class="accordion" id="numberDiv"
+                        style="padding-top: 15px;">
+                        <!-- <div id="numberDiv" class="table-responsive"
+                        style="padding-top: 15px;"> -->
+
+                        <!-- <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#collapseOne" aria-expanded="true"
+                              aria-controls="collapseOne">
+                              Accordion Item #1
+                            </button>
+                          </h2>
+                          <div id="collapseOne"
+                            class="accordion-collapse collapse show"
+                            aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <div class="bd-callout bd-callout-warning"
+                                data-bs-theme="bs-orange">
+                                <h5
+                                  id="associating-form-text-with-form-controls">Associating
+                                  form text with form controls <a
+                                    class="anchor-link"
+                                    href="#associating-form-text-with-form-controls"
+                                    aria-label="Link to this section: Associating form text with form controls"></a></h5>
+                                <p>Form text should be explicitly associated
+                                  with the form control it relates to using the
+                                  <code>aria-describedby</code> attribute. This
+                                  will ensure that assistive technologies—such
+                                  as screen readers—will announce this form text
+                                  when the user focuses or enters the control.
+                                </p></div>
+                            </div>
+                          </div>
+                        </div> -->
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+
+        </div>
+        <div id="liveAlertPlaceholder"></div>
+
+      </div>
+    </div>
+    <!-- plugins:js -->
+    <script src="../assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page-->
+    <script src="../assets/vendors/chartjs/Chart.min.js"></script>
+    <script
+      src="../assets/vendors/jvectormap/jquery-jvectormap.min.js"></script>
+    <script
+      src="../assets/vendors/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <!-- End plugin js for this page-->
+    <!-- inject:js -->
+    <script src="../assets/js/material.js"></script>
+    <script src="../assets/js/misc.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <script src="../assets/js/dashboard.js"></script>
+    <!-- End custom js for this page-->
+    <!-- <script src="..//assets/bootstrap/js/bootstrap.js"></script> -->
+
+  </body>
+  <script>
+    // localStorage.setItem('cdr_results',"JSON.stringify(response)")
+    // 读取存储的数据
+    $(document).ready(function() {
+      var storedData = localStorage.getItem('abr_results');
+      
+      var data = JSON.parse(storedData);
+      console.log(data)
+      var seqlist = data[0]
+      // var scheme = data[1]
+      // var alignment_details = data[2]
+      var descriptions = data[1][0]
+      var abr_list = data[1][1]
+      
+      
+      // 使用数据
+     
+
+      schemaTitle.textContent = `对抗体抗原结合区域(ABR)鉴定结果`
+    
+
+      
+
+      // $("#numberDiv").append(cdrTable)
+      for(i=0;i<abr_list.length;i++){
+        var chain_type = descriptions[i]["chain_type"]
+        console.log(chain_type)
+
+        if(chain_type!="H"){
+          chain_type = "L"
+        }
+        var numberItem = $('<div>').addClass("accordion-item")
+        var numberH2 = $("<h2>").addClass("accordion-header")
+        var numberButton = $("<button>").addClass("accordion-button")
+        var expand = "false"
+        if(i!=0){
+          numberButton.addClass("collapsed")
+          expand = "false" 
+        }
+        numberButton.attr({
+          'type': 'button',
+          'data-bs-toggle': 'collapse',
+          'data-bs-target': `#panelsStayOpen-collapse${i}`,
+          'aria-expanded': expand,
+          'aria-controls': `panelsStayOpen-collapse${i}`
+        });
+        var seq_name = seqlist[1][i]
+        if(seq_name[0]==">"){
+          seq_name = seq_name.substring(1)
+        }
+        numberButton.text(seq_name)
+        numberH2.append(numberButton)
+        numberH2.attr("id",`panelsStayOpen-heading${i}`)
+        numberItem.append(numberH2)
+        var numberDetailDiv = $("<div>").addClass("accordion-collapse collapse")
+          if(i==0){
+          numberDetailDiv.addClass("show")
+        }
+        numberDetailDiv.attr({
+          "aria-labelledby":`panelsStayOpen-heading${i}`,
+          "id":`panelsStayOpen-collapse${i}`
+        
+        })
+        var detailBody = $("<div>").addClass("accordion-body container-center")
+        var tableDiv = $("<div>").addClass("container-center shadow p-3 mb-5 bg-body-tertiary rounded")
+        var cdrTable = $("<tbale>").addClass("table m-l-2  table-striped")
+        thName = $("<thead>")
+        trName = $("<tr>")
+        trName.append($("<th>").text("名称").addClass("m m-w1"))
+        trName.append($("<th>").text("序列").addClass("m m-w2 "))
+        thName.append(trName)
+        cdrTable.append(thName)
+        var tBody = $("<tbody>")
+        var tr1 = $("<tr>")
+        tr1.append($("<th>").text(`FR-${chain_type}1`))
+        tr1.append($("<td>").text(abr_list[i][0]))
+        tBody.append(tr1)
+        var tr1 = $("<tr>")
+        tr1.append($("<th>").text(`ABR-${chain_type}1`))
+        tr1.append($("<td>").text(abr_list[i][1]))
+        tBody.append(tr1)
+        var tr1 = $("<tr>")
+        tr1.append($("<th>").text(`FR-${chain_type}2`))
+        tr1.append($("<td>").text(abr_list[i][2]))
+        tBody.append(tr1)
+        var tr1 = $("<tr>")
+        tr1.append($("<th>").text(`ABR-${chain_type}2`))
+        tr1.append($("<td>").text(abr_list[i][3]))
+        tBody.append(tr1)
+        var tr1 = $("<tr>")
+        tr1.append($("<th>").text(`FR-${chain_type}3`))
+        tr1.append($("<td>").text(abr_list[i][4]))
+        tBody.append(tr1)
+        var tr1 = $("<tr>")
+        tr1.append($("<th>").text(`ABR-${chain_type}3`))
+        tr1.append($("<td>").text(abr_list[i][5]))
+        tBody.append(tr1)
+        var tr1 = $("<tr>")
+        tr1.append($("<th>").text(`FR-${chain_type}4`))
+        tr1.append($("<td>").text(abr_list[i][6]))
+        tBody.append(tr1)
+        
+        cdrTable.append(tBody)
+        tableDiv.append(cdrTable)
+
+        detailBody.append(tableDiv)
+        
+        numberDetailDiv.append(detailBody)
+        numberItem.append(numberDetailDiv)
+        $("#numberDiv").append(numberItem)
+        // console.log(`append ${i}`)
+      }
+  }) 
+  // var storedData = localStorage.getItem('number_results');
+  // var data = JSON.parse(storedData);
+  // var results = data[0]
+  // var seq = data[1]
+  // var number = results[0][0]
+  var storedData = localStorage.getItem('abr_results');
+      
+  var data = JSON.parse(storedData);
+  console.log(data)
+  var seqlist = data[0]
+  var results = data[1][1]
+  // var scheme = data[1]
+  // var alignment_details = data[2]
+  // var cdr_list = data[3]
+  var saveDiv = document.getElementById("saveFile")
+  saveDiv.addEventListener("click",function(){
+    console.log("save")
+    window.pywebview.api.saveAbrFile().then(x=>{
+
+      if (x) {
+          window.pywebview.api.writeAbrResult(x,results,seqlist).then(response=>{
+
+              alert(response,'success')
+          })
+      }
+      }).catch(err=>alert("保存失败",'danger'))
+  })
+  const alertPlaceholder = document.getElementById('liveAlertPlaceholder');
+
+  const alert = (message, type) => {
+  const wrapper = document.createElement('div');
+  wrapper.classList.add('position-fixed', 'top-0', 'start-50', 'translate-middle-x');
+  wrapper.style.zIndex = '1000'; // 控制层叠顺序
+
+  wrapper.innerHTML = `
+    <div class="alert alert-${type} alert-dismissible infowidth" role="alert">
+      <div>${message}</div>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+  `;
+
+  alertPlaceholder.appendChild(wrapper);
+
+  // 设置警告框显示时间
+  // setTimeout(() => {
+  //   alertPlaceholder.removeChild(wrapper);
+  // }, 5000); // 5000 毫秒后自动关闭警告框
+};   
+  </script>
+</html>
