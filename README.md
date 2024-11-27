@@ -41,7 +41,7 @@ Numbering antibodies and predicting CDRs are critical foundational steps in anti
 
 ## License
 AbnumPro is licensed under the ***MIT*** License and is free for anyone to use and distribute, including for commercial and academic purposes. For details, please refer to the [LICENSE](https://github.com/bioinfowenz/AbnumPro/blob/main/LICENSE).<br>
-If you wish to modify AbNumPro, please access the [source code](https://github.com/bioinfowenz/AbnumPro/blob/main/source_code). However, we strongly recommend using the precompiled version provided.
+If you wish to modify AbNumPro, please access the [AbnumPro_source code](https://github.com/bioinfowenz/AbnumPro/blob/main/AbnumPro_source_code). However, we strongly recommend using the precompiled version provided.
 
 ## Contact
 This project is jointly led by [HLAB](https://i.uestc.edu.cn/hlab/Journal.html) and Xie Lab. For any questions, don't hesitate to get in touch with:<br>
